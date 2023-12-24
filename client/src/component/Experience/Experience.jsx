@@ -2,7 +2,7 @@ import "./Experience.css";
 export const Experience = () => {
   return (
     <section className="expirence__section">
-      <h1>Work Experience</h1>
+      <h1 className="section__title">Work Experience</h1>
       <ul className="expirence__list">
         <li className="expirence__item">
           <div className="expirence__header">
@@ -23,8 +23,7 @@ export const Experience = () => {
               visual analysis.
             </li>
             <li className="work__done-item">
-              Using Nodejs and Mongodb created an API to handle user and
-              SOP(Standard Operating Porcedures) creation.
+              Using Nodejs and Mongodb created an API to handle CRUD operations.
             </li>
             <li className="work__done-item">
               Deployed the application using AWS EC2 instance by using

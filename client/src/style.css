@@ -29,3 +29,9 @@ ul {
 .highlight {
   color: var(--accent-color);
 }
+
+.section__title {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}

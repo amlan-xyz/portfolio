@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-top-right-radius: 2rem;
+}
+
+.footer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  gap: 0.5rem;
+}
+
+.footer a {
+  background: none;
+}
+
+.footer__icon {
+  background-color: var(--secondary-color);
+}

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FaCode } from "react-icons/fa";
-import { MdClose, MdOutlineMenu } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 export const Navbar = () => {
@@ -18,7 +17,7 @@ export const Navbar = () => {
       <NavLink className="nav__header" to="/">
         <FaCode className="nav__logo" /> dev.amlan
       </NavLink>
-      <div onClick={() => setShowMenu(!showMenu)} className="menu">
+      {/* <div onClick={() => setShowMenu(!showMenu)} className="menu">
         {showMenu ? <MdClose /> : <MdOutlineMenu />}
       </div>
       <ul className={showMenu ? "nav__links open" : "nav__links"}>
@@ -34,13 +33,7 @@ export const Navbar = () => {
             Blogs
           </NavLink>
         </li>
-        <li className="nav__item">
-          {" "}
-          <NavLink style={getActiveStyle} to="/contact" className="nav__link">
-            Contact
-          </NavLink>
-        </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 };
