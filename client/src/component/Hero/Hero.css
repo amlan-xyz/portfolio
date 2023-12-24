@@ -1,5 +1,8 @@
 .hero__container {
-  margin-top: 100px;
+  display: flex;
+  margin: auto;
+  min-height: 90vh;
+  /* outline: solid; */
 }
 
 .hero__body {
@@ -56,10 +59,6 @@
 }
 
 @media (max-width: 768px) {
-  .hero__container {
-    margin-top: 80px;
-  }
-
   .hero__details h1 {
     font-size: 1.7rem;
   }
@@ -75,8 +74,9 @@
 
 @media (max-width: 425px) {
   .hero__container {
-    margin-top: 30px;
+    min-height: 82vh;
   }
+
   .hero__body {
     flex-direction: column-reverse;
     gap: 1.5rem;

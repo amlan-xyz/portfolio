@@ -1,0 +1,53 @@
+.expirence__section h1 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.expirence__item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border: 0.01px solid;
+  margin-bottom: 2rem;
+}
+
+.expirence__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expirence__header h3 {
+  font-weight: 600;
+}
+
+.expirence__item p {
+  margin-top: -0.5rem;
+}
+
+.expirence__header span {
+  font-weight: 200;
+}
+
+.work__done-list {
+  list-style: square;
+}
+
+.work__done-item {
+  margin: 0 0 1rem 2rem;
+  font-weight: 200;
+}
+
+.tech__used {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tech__used li {
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
