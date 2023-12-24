@@ -15,11 +15,11 @@ export const Hero = () => {
           </p>
           <div className="hero__contact">
             <Link to="https://github.com/theweird0ne">
-              <FaLinkedin className="hero__contact-icon" />
+              <FaGithub className="hero__contact-icon" />
             </Link>
             <Link to="https://www.linkedin.com/in/amlanjyoti-saikia-5b280b1bb/">
               {" "}
-              <FaGithub className="hero__contact-icon" />
+              <FaLinkedin className="hero__contact-icon" />
             </Link>
           </div>
           <div className="skills">
