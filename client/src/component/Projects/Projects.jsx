@@ -22,7 +22,7 @@ export const Projects = () => {
             </p>
             <div className="project__links">
               <Link
-                to="https://github.com/theweird0ne/e-commerce"
+                to="https://github.com/amlan-xyz/e-commerce"
                 className="project__link"
               >
                 Code <FaGithub />
@@ -56,7 +56,7 @@ export const Projects = () => {
             </p>
             <div className="project__links">
               <Link
-                to="https://github.com/theweird0ne/social-media-application"
+                to="https://github.com/amlan-xyz/social-media-application"
                 className="project__link"
               >
                 Code <FaGithub />

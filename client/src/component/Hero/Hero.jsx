@@ -14,7 +14,7 @@ export const Hero = () => {
             passionate Web Developer.
           </p>
           <div className="hero__contact">
-            <Link to="https://github.com/theweird0ne">
+            <Link to="https://github.com/amlan-xyz">
               <FaGithub className="hero__contact-icon" />
             </Link>
             <Link to="https://www.linkedin.com/in/amlanjyoti-saikia-5b280b1bb/">
