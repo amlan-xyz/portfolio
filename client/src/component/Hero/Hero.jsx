@@ -17,7 +17,7 @@ export const Hero = () => {
             <Link to="https://github.com/amlan-xyz">
               <FaGithub className="hero__contact-icon" />
             </Link>
-            <Link to="https://www.linkedin.com/in/amlanjyoti-saikia-5b280b1bb/">
+            <Link to="https://www.linkedin.com/in/amlanxyz/">
               {" "}
               <FaLinkedin className="hero__contact-icon" />
             </Link>
