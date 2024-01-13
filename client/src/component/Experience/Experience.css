@@ -5,38 +5,49 @@
 
 .expirence__item {
   display: flex;
+  border-radius: 0.5rem;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1.5rem;
   gap: 1rem;
-  border: 0.01px solid;
   margin-bottom: 2rem;
+  background-color: var(--bg-alt);
+  box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+    /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
+    /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+    0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
 }
 
 .expirence__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--bg-alt);
 }
 
 .expirence__header h3 {
   font-weight: 600;
+  background-color: var(--bg-alt);
 }
 
 .expirence__item p {
   margin-top: -0.5rem;
+  background-color: var(--bg-alt);
 }
 
 .expirence__header span {
   font-weight: 200;
+  background-color: var(--bg-alt);
 }
 
 .work__done-list {
   list-style: square;
+  background-color: var(--bg-alt);
 }
 
 .work__done-item {
   margin: 0 0 1rem 2rem;
   font-weight: 200;
+  background-color: var(--bg-alt);
 }
 
 .tech__used {

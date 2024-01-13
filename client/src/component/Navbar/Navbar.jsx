@@ -1,17 +1,16 @@
-import { useState } from "react";
 import { FaCode } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 export const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  // const [showMenu, setShowMenu] = useState(false);
 
-  const getActiveStyle = ({ isActive }) => ({
-    display: isActive ? "block" : "",
-    padding: isActive ? ".5rem" : "",
-    margin: isActive ? "0 0.5rem" : "",
-    borderRadius: isActive ? ".5rem" : "",
-    backgroundColor: isActive ? "#5c02a7" : "",
-  });
+  // const getActiveStyle = ({ isActive }) => ({
+  //   display: isActive ? "block" : "",
+  //   padding: isActive ? ".5rem" : "",
+  //   margin: isActive ? "0 0.5rem" : "",
+  //   borderRadius: isActive ? ".5rem" : "",
+  //   backgroundColor: isActive ? "#5c02a7" : "",
+  // });
   return (
     <nav className="navbar">
       <NavLink className="nav__header" to="/">
