@@ -16,7 +16,7 @@ export const Experience = () => {
             <li className="work__done-item">
               Developed a full-stack web application to track progress of
               ongoing investigation of FIR's and generate SOP(Standard Operating
-              Porcedures) for better management.
+              Proceducres) for better management.
             </li>
             <li className="work__done-item">
               Created dynamic web pages, graphs, tables using EJS, Bootstrap for
